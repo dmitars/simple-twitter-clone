@@ -1,0 +1,61 @@
+body{
+    color: #113;
+}
+
+.header {
+    min-height: 300px;
+    padding: 80px;
+    text-align: center;
+    background: url("another.JPG") no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
+}
+
+.two {
+    padding: 100px 20px;
+    text-align: center;
+}
+.two h1 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 0;
+    color: white;
+    margin: 0;
+    display: inline-block;
+}
+.two h1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 200%;
+    border-radius: 50%/30%;
+    border: 6px solid white;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+@media (max-width: 420px) {
+    .two h1 {font-size: 2em;}
+}
+
+.register-form{
+    padding: 30px;
+    border-radius: 15px;
+    border: 12px solid #6c757d!important;
+}
+
+.register-title{
+    text-align: center;
+    font-size: 2em;
+    color: #6c757d;
+}
