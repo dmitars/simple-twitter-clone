@@ -6,7 +6,7 @@ Simple twitter clone
 
 Description
 ----
-It is simple twitter clone made with spring framework and freemaker. There are spring security, that provides authentification, and spring mvc
+It is a simple twitter clone made with spring framework and freemaker. There are spring security, that provides authentification, and spring mvc
 
 Installation
 ----
