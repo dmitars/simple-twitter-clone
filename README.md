@@ -1,5 +1,6 @@
 # simple-twitter-clone
 Simple site with Java Spring and Freemaker
+
 Project name
 ----
 Simple twitter clone
